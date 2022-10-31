@@ -1,5 +1,6 @@
 from pprint import pprint
 
+
 def make_cook_book(file_name):
     cook_book = {}
     with open(file_name, encoding='utf-8') as file:
@@ -31,4 +32,4 @@ def get_shop_list_by_dishes(dishes, person_count):
                     count_ingredients[ingred_list] = ingred
     return count_ingredients
 
-pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2), width=70)
+pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2))
