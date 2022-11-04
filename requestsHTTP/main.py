@@ -17,7 +17,7 @@ def find_smartest(names):
     smart_hero = (max(desired_hero, key=desired_hero.get))
     return smart_hero
     # for hero in all_hero:
-    #     if hero['name'] == smart_hero:\\==-
+    #     if hero['name'] == smart_hero:
     #         return hero
 
 pprint(find_smartest(neme_hero))
